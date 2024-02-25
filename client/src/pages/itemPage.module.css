@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+.img {
+    display: flex;
+    width: 30rem;
+    height: 30rem;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1220px) {
+    .main{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        height: 20rem;
+        width: 20rem;
+        margin-bottom: 2rem;
+    }
+
+    .img img{
+        height: 20rem;
+        width: 20rem;
+    }
+   }
