@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lilita+One&display=swap");
+a {
+  text-decoration: none;
+}
+.brandbar_content {
+  margin-top: 11px;
+  display: flex;
+  gap: 45px;
+  flex-wrap: wrap;
+}
+.brandbar_column {
+  width: 31%;
+}
+.brandbar_card {
+  margin-top: 18px;
+}
+.brandbar_card_img {
+  border: 2px solid #acacac;
+  border-radius: 36px;
+  overflow: hidden;
+  position: relative;
+}
+.brandbar_card img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.brandbar_card p:after {
+  content: "$";
+}
+.brandbar_card h4 {
+  padding-top: 14px;
+  font-family: "Lilita One";
+  font-size: 44px;
+  line-height: 84%;
+  text-align: left;
+  color: #000;
+  cursor: pointer;
+}
+.brandbar_card p {
+  font-family: "Lilita One";
+  font-size: 44px;
+  line-height: 84%;
+  text-align: left;
+  color: #acacac;
+}
+.brandbar_buttons {
+  display: inline-flex;
+  position: absolute;
+  bottom: 35px;
+  right: 73px;
+}
+.brandbar_button {
+  display: flex;
+  border-radius: 36px;
+  background-color: #fff;
+  color: #000;
+  margin-right: 15px;
+  padding: 0px 14px;
+  min-height: 37px;
+  font-family: "Lilita One";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  transition: all 0.3s ease-out;
+}
+.brandbar_button:hover {
+  background: #000;
+  color: #fff;
+}
