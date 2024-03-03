@@ -13,7 +13,7 @@
 /* promo_left */
 .promo_left {
   width: 50%;
-  margin-right: 15px;
+  margin-right: 1%;
 }
 
 .promo_left img {
@@ -34,11 +34,11 @@
 .bold_text {
   position: absolute;
   font-family: "Lilita One";
-  font-size: 48px;
-  top: 30px;
-  left: 49px;
+  font-size: 4vw;
+  top: 1.4vw;
+  left: 3vw;
   font-weight: bolder;
-  line-height: 40px;
+  line-height: 85%;
   letter-spacing: 0em;
   text-align: left;
 }
@@ -48,17 +48,17 @@
 .description_text {
   position: absolute;
   font-family: "Average Sans";
-  font-size: 16px;
+  font-size: 1.2vw;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 80%;
   letter-spacing: 0.05em;
   text-align: left;
-  right: 64px;
-  bottom: 60px;
+  right: 2.5vw;
+  bottom: 3.5vw;
 }
 
 .two_card_block {
-  margin-top: 15px;
+  margin-top: 1.2vw;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -68,20 +68,17 @@
   position: relative;
   width: 50%;
   height: auto;
-  margin-right: 15px;
+  margin-right: 1.2vw;
 }
 .for_woman img {
   width: 100%;
 }
-/* .for_woman_relative {
-  position: relative;
-} */
 .card_block_text_woman {
   position: absolute;
   font-family: "Lilita One";
-  font-size: 48px;
+  font-size: 3.9vw;
   font-weight: bolder;
-  line-height: 40px;
+  line-height: 3vw;
   letter-spacing: 0em;
   text-align: left;
   bottom: 10px;
@@ -91,7 +88,7 @@
   position: relative;
   width: 50%;
   height: auto;
-  margin-left: 15px;
+  margin-left: 1.2vw;
 }
 .for_man img {
   width: 100%;
@@ -99,9 +96,9 @@
 .card_block_text_man {
   position: absolute;
   font-family: "Lilita One";
-  font-size: 48px;
+  font-size: 3.9vw;
   font-weight: bolder;
-  line-height: 40px;
+  line-height: 3vw;
   letter-spacing: 0em;
   text-align: left;
   top: 10px;
@@ -111,7 +108,7 @@
 .promo_right {
   width: 50%;
   text-align: left;
-  margin-left: 15px;
+  margin-left: 2.2%;
 }
 .promo_right img {
   width: 100%;
@@ -135,15 +132,15 @@
   border: solid 1px #000000;
   border-radius: 36px;
   background-color: #fff;
-  padding: 13px 13px 13px 13px;
+  padding: 1.2vw;
 }
 .btn_learn_more img {
-  width: 51px;
+  width: 3.2vw;
 }
 .btn_text {
   font-family: "Average Sans";
-  padding-right: 49px;
-  font-size: 22px;
+  padding-right: 2vw;
+  font-size: 1.5vw;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.01em;
@@ -157,10 +154,15 @@
   border: solid 1px #000000;
   border-radius: 36px;
   background-color: #fff;
-  padding: 13px 13px 13px 13px;
+  padding: 1.2vw;
   background-color: #ebffe2;
 }
 
 .btn_shop_now img {
-  width: 51px;
+  width: 3.2vw;
+}
+@media screen and (max-width: 1000px) {
+  .btn_block {
+    gap: 10px;
+  }
 }
