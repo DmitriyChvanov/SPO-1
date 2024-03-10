@@ -133,9 +133,10 @@
   border-radius: 36px;
   background-color: #fff;
   padding: 1.2vw;
+  cursor: pointer;
 }
 .btn_learn_more img {
-  width: 3.2vw;
+  width: 2.8vw;
 }
 .btn_text {
   font-family: "Average Sans";
@@ -156,10 +157,11 @@
   background-color: #fff;
   padding: 1.2vw;
   background-color: #ebffe2;
+  cursor: pointer;
 }
 
 .btn_shop_now img {
-  width: 3.2vw;
+  width: 2.8vw;
 }
 @media screen and (max-width: 1000px) {
   .btn_block {

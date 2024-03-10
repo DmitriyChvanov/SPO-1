@@ -20,7 +20,7 @@ a {
   }
 }
 
-[data-grid-columns="2"] {
+/* [data-grid-columns="2"] {
   .brandbar_card {
     width: 48%;
     margin-top: 18px;
@@ -33,7 +33,7 @@ a {
   .brandbar_buttons {
     zoom: 1.3;
   }
-}
+} */
 .brandbar_card_img {
   border: 2px solid #acacac;
   border-radius: 36px;
@@ -72,6 +72,7 @@ a {
 }
 .brandbar_button {
   display: flex;
+  border: none;
   border-radius: 36px;
   background-color: #fff;
   color: #000;
@@ -88,6 +89,7 @@ a {
   align-items: center;
   text-transform: uppercase;
   transition: all 0.3s ease-out;
+  cursor: pointer;
 }
 .brandbar_button:hover {
   background: #000;

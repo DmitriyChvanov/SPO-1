@@ -16,7 +16,7 @@
 }
 
 .logo {
-  margin: 12px 0px;
+  margin: 8px 0px;
   align-items: center;
 }
 .logo img {
@@ -180,9 +180,12 @@
 
 .search_liked_mail_icon {
   width: 35px;
+  fill: black;
+  transition: all 0.3s ease;
 }
-.search_liked_mail_icon:not(:last-child) {
-  margin-left: 11px;
+.search_liked_mail_icon:hover {
+  width: 35px;
+  fill: gray;
 }
 /* search-box---------------------------------------------------------------------- */
 

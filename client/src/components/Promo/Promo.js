@@ -48,7 +48,10 @@ const Promo = () => {
             <div className={promo.promo_right_content}>
               <img align="left" alt="bg" src={promo_right} />
               <div className={promo.btn_block}>
-                <div className={promo.btn_learn_more}>
+                <div
+                  className={promo.btn_learn_more}
+                  onClick={window.scrollTo(1000, 0)}
+                >
                   <div className={promo.btn_text}>learn more</div>
                   <img align="left" src={scroll_down} alt="scroll-down" />
                 </div>
