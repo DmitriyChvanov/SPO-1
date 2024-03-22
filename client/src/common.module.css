@@ -4,7 +4,12 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
-  max-width: 1880px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.container_1300px {
+  max-width: 1300px;
   margin: 0 auto;
   padding: 0 30px;
 }
