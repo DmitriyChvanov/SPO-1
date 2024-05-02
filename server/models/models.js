@@ -51,6 +51,13 @@ const Color = sequelize.define('color',{
     name: {type: DataTypes.STRING, unique: true, allowNull: false},
 })
 
+const Messages = sequelize.define('messages',{
+    id: {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
+    from_hex: {type: DataTypes.STRING, allowNull: false},
+    to_hex: {type: DataTypes.STRING, allowNull: false},
+    message: {type: DataTypes.STRING, unique: true, allowNull: false},
+})
+
 User.hasOne(Basket)
 Basket.belongsTo(User)
 
@@ -90,5 +97,6 @@ module.exports= {
     ItemInfo,
     Type,
     Brand,
-    Color
+    Color,
+    Messages,
 }
